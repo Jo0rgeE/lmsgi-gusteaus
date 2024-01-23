@@ -1,0 +1,17 @@
+#contenedor {
+    background-color: #fff8f0;
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+  }
+
+div.encabezado {
+    background-image: url(../imgs/guesteaus.png);
+    background-size: cover;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    text-align: center;
+    height: /* ajusta la altura al tamaño de tu imagen de cabecera */;
+    /* Puedes agregar más propiedades según sea necesario */
+  }
+  
