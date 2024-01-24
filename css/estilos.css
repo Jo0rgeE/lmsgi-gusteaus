@@ -2,16 +2,33 @@
     background-color: #fff8f0;
     font-family: 'Times New Roman', serif;
     font-size: 16px;
-  }
+}
 
 div.encabezado {
-    background-image: url(../imgs/guesteaus.png);
-    background-size: cover;
+    background: url(../imgs/guesteaus.png) center/cover no-repeat;
+
     color: #5a3e36;
     font-family: 'Georgia', serif;
     font-size: 36px;
     text-align: center;
-    height: /* ajusta la altura al tamaño de tu imagen de cabecera */;
-    /* Puedes agregar más propiedades según sea necesario */
-  }
-  
+
+}
+
+div.menu ul li a {
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    
+}
+
+div.menu a:hover{
+    background-color: #8b6f47;
+}
+
+div.contenido{
+    background-color: #fff8f0;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+}
