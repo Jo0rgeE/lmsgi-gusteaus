@@ -1,0 +1,40 @@
+div.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #a77e58;
+    color: #ffffff;
+    
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    transition: transform 0.3s ease; 
+}
+
+
+div.menu ul li a:hover {
+    transform: rotate(5deg); 
+   
+}
+
+div.encabezado {
+    background: url(/imgs/guesteaus.png) center/cover no-repeat;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease; 
+}
+
+
+div.encabezado:hover {
+    transform: scale(1.05);
+}
+
+div.contenido h2 {
+    transform-origin: bottom left; 
+    transition: transform 0.3s ease;
+}
+
+
+div.contenido h2:hover {
+    transform: skewX(-5deg);
+}
