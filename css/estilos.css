@@ -1,0 +1,54 @@
+div.menu ul li a {
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+      transition: color 0.3s ease, font-size 0.3s ease; 
+}
+
+div.menu ul li a:hover {
+    color: #fa3a00; 
+    font-size: 20px;
+}
+
+div.encabezado {
+    background: url(/imgs/guesteaus.png) center/cover no-repeat;
+    background-size: cover;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden; 
+    transition: transform 0.3s ease;    
+}
+
+div.encabezado:hover {
+    transform: scale(1.05); 
+}
+
+
+div.sidebar {
+    float: right;
+    width: 30%;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5a3e36;
+}
+
+
+div.sidebar ul li {
+    margin-bottom: 5px;
+    transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+
+div.sidebar ul li:hover {
+    color: #ff0000; 
+    background-color: #a55c18; 
+    transform: scale(1.1); 
+}
