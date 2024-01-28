@@ -1,0 +1,35 @@
+div.encabezado {
+    background: url(../imgs/guesteaus.png) center bottom/cover no-repeat;
+    color: #5a3e36;
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 100px;
+    
+}
+
+div.pie{
+    background-color: #5a3e36;
+    color: #ecdcc6;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+div.pie a {
+    color: #ecdcc6;
+    text-decoration: none;
+    margin: 10px; 
+  }
+  
+  div.pie a:hover {
+    text-decoration: underline; 
+  }
+  
+  div.derechos-de-autor {
+    margin-top: 10px; 
+  }
+  
+
+ 
