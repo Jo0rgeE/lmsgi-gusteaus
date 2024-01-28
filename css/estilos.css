@@ -1,0 +1,26 @@
+div.menu a{
+    background-color: #a77e58;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;  
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    display: inline-block; 
+    
+}
+
+div.menu a:hover {
+    color: #5a3e36; 
+    background-color: greenyellow;
+}
+
+  div.menu a:active {
+    color: #a33b1e; 
+    border-bottom: 4px solid  #a33b1e; 
+}
+
+
+  
+ 
+  
